@@ -22,6 +22,7 @@
 //3. Add comments explaining each line of your program.
 
 int main(){
+    
     int favNumber; // Declare an integer variable named 'favNumber' to store the user's favorite number
     std::cout << "What is your favorite number? " << std::endl;
     std:: cin >> favNumber;
