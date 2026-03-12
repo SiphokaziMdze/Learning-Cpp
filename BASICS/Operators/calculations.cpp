@@ -13,8 +13,16 @@ int main (){
     std::cout << "The sum of " << a << " and " << b << " is: " << a + b << std::endl; // Print the sum of a and b to the console
     std::cout << "The difference of " << a << " and " << b << " is: " << a - b << std::endl;
     std::cout << "The product of " << a << " and " << b << " is: " << a * b << std::endl;
-    std::cout << "The division of " << a << " and " << b << " is: " << a / b << std::endl;
-    std::cout << "The remainder of " << a << " and " << b << " is: " << a % b << std::endl;
+    
+    if(b != 0) {
+        std::cout << "The division of " << a << " and " << b << " is: " << a / b << std::endl;
+        std::cout << "The remainder of " << a << " and " << b << " is: " << a % b << std::endl;
 
 
+    } else {
+        std::cout << "Division by zero is not allowed." << std::endl; 
+    }
+
+    
+    
 }
