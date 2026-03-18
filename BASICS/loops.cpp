@@ -10,8 +10,6 @@ for( num = 1; num <= 10; num++) {
     std::cout << num << " " << std::endl; 
 }
 
-
-
 //WHILE LOOP
 /* while (condition) {
     // code that repeats
@@ -19,7 +17,7 @@ for( num = 1; num <= 10; num++) {
 
 //Question 2: Write a program that asks the user for a number N and prints numbers from 1 to N using a while loop.
 
-    std::cout <<"Enter nummber: ";
+/*    std::cout <<"Enter nummber: ";
     std::cin >> num;
 
     int num1 = 1;
@@ -27,7 +25,7 @@ for( num = 1; num <= 10; num++) {
     while(num1 <= num) {
         std::cout << num1 << " ";
         num1++;
-    }
+    } */
 
 
 //DO-WHILE LOOP
@@ -35,7 +33,9 @@ for( num = 1; num <= 10; num++) {
     // code runs first
 } while (condition); */
 
-int num2;
+
+//print numbers from 1 to the entered number and at the end, print whether the entered number is real or not.
+/*int num2;
 std::cout << "Enter a number: ";
 std::cin >> num2;
 
@@ -44,11 +44,29 @@ for(int i = 1; i <=num2; i++){
 }
 
 if(num2 % 2 == 0){
-    std::cout << "Even";
+    std::cout << "Even" << std::endl;
 } else {
-    std::cout << "Odd";
+    std::cout << "Odd" << std::endl;
+} */
+
+//modify so that it prints only even numbers from 1 to the input
+int input;
+std::cout << "Enter input: " << std::endl;
+std::cin >> input;
+
+std::cout << "Input: " << input << std::endl;
+std::cout << "Output: " << std::endl;
+
+for(int i = 2; i <= input; i += 2){
+    std::cout << i << std::endl;
 }
 
+if(input % 2 == 0){
+    std::cout << "Even" << std::endl;
+} else {
+    std::cout << "Odd" << std::endl; 
+}
 return 0;
 
 }
+
