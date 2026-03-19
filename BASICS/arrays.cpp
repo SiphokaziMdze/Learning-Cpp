@@ -7,7 +7,7 @@ int main() {
      }
      std::cout << std::endl;
    //Question 2
-   /*int arr1[5];
+   int arr1[5];
    int j;
 
    for(j = 0; j < 5; j++ ){
@@ -16,7 +16,7 @@ int main() {
 
    for(j = 0; j < 5; j++ ){
       std::cout << arr1[j] << " ";
-   }*/
+   }
 
    //Question 3
    int arr2[5] = {2, 42, 69, 8, 10};
